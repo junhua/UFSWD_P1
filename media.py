@@ -7,7 +7,7 @@ class Movie:
 	# fields
 	title, poster_image_url, trailer_youtube_url = "", "", ""
 
-	# init method
+	# constructor
 	def __init__(self, _title, _poster_image_url, _trailer_youtube_url):
 		self.title = _title
 		self.poster_image_url = _poster_image_url
